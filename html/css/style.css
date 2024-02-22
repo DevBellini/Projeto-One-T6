@@ -1,0 +1,28 @@
+body {
+    width: 100%;
+    height: 100%;
+    background: #F3F5FC;
+}
+
+.main {
+    margin-top: 40px;
+    margin-left: 40px;
+    gap: 40px;
+}
+
+.section {
+    margin-top: 168px;
+    margin-left: 240px;
+}
+
+.text-input {
+    background: #F3F5FC;
+    width: 680px;
+    height: 48px;
+    border: none;
+    outline: none;
+    font-size: 32px;
+    color: #0A3871;
+
+
+}
