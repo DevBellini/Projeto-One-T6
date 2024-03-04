@@ -6,28 +6,31 @@
     line-height: 150%;
 }
 
-.logoAlura {
-
-    margin-left: 10px;
-    padding-top: 10px;
-    width: 2%;
+.LogoAlura {
+    margin-top: 40px;
+    margin-left: 40px;
+    gap: 40px;
 }
 
 main {
     display: flex;
-    margin-bottom: 50px;
-    margin-left: 80px;
+    margin-left: 240px;
+    margin-top: 885px;
 }
 
 .text-area {
     border: none;
     color: #0A3871;
-    margin-top: 90px;
+    margin-top: 168px;
+    margin-left: 240px;
     text-transform: lowercase;
+    width: 680px;
+    height: 48px;
+    resize: none;
 }
 
 ::placeholder {
-    color: 0A3871;
+    color: #0A3871;
 }
 
 .text-area:focus {
@@ -35,16 +38,16 @@ main {
 }
 
 .mensagem {
-    background: white;
+    background: red;
     background-image: url(/html/img/High\ quality\ products\ 1\ 1.png);
     background-repeat: no-repeat;
     border: none;
-    border-radius: 24px;
+    border-radius: 32px;
     color: #0A3871;
-    margin-left: 98px;
-    margin-top: 20px;
-    padding-left: 20px;
-    position: fixed;
+    position: relative;
+    height: 944px;
+    width: 400px;
+    resize: none;
 }
 
 .mensagem:focus {

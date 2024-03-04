@@ -12,27 +12,27 @@
 </head>
 
 <body>
-    <header>
-        <img class="LogoAlura" src="./img/Logo.png" alt="Logo Alura" height="48px" width="120px" />
+    <header class="LogoAlura">
+        <img src="./img/Logo.png" alt="Logo Alura" height="48px" width="120px" />
     </header>
 
     <main>
         <Section>
-            <textarea class="text-area" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+            <textarea class="text-area" placeholder="Digite seu texto"></textarea>
 
             <div class="informacao">
                 <h6>Apenas letras minúsculas e sem acento.</h6>
             </div>
 
             <div class="botoes">
-                <button class="btn-criptografar">Criptografar</button>
-                <button class="btn-descriptografar">Descriptografar</button>
+                <button class="btn-criptografar" onclick="btnCriptografar()">Criptografar</button>
+                <button class="btn-descriptografar" onclick="btnDescriptografar()">Descriptografar</button>
             </div>
         </Section>
 
         <section>
             <textarea class="mensagem" cols="20" rows="10"></textarea>
-            <button class="btn-copiar">Copiar</button>
+            <button class="btn-copiar" onclick="btnCopiar()">Copiar</button>
         </section>
     </main>
 
